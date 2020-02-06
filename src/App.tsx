@@ -12,6 +12,7 @@ import GithubState from './context/github/GithubState';
 import AlertState from './context/alert/AlertState';
 
 import './App.css';
+import Footer from './components/layout/Footer';
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
                 />
               </Switch>
             </div>
+            <Footer />
           </div>
         </Router>
       </AlertState>
